@@ -1,0 +1,109 @@
+<html>
+<body>
+
+<a href="http://www.w3school.com.cn">
+This is a link</a>
+
+</body>
+</html>
+
+//创建一个可点击的链接，在HTML上。             
+
+<html>
+<body>
+
+<img src="/i/eg_w3school.gif" width="300" height="120" />
+
+</body>
+</html>
+
+//创建一个图片/动态图。
+
+<br> 就是没有关闭标签的空元素（<br> 标签定义换行）。
+即使 <br> 在所有浏览器中的显示都没有问题，使用 <br /> 也是更长远的保障。
+
+<html>
+
+<body>
+
+<h1 align="center">This is heading 1</h1>
+
+<p>上面的标题在页面中进行了居中排列。上面的标题在页面中进行了居中排列。上面的标题在页面中进行了居中排列。</p>
+
+</body>
+</html>
+
+<html>
+<body>
+
+<h1 style="text-align:center">This is a heading</h1>
+<p>上面的标题相对于页面居中对齐。</p>
+
+</body>
+</html>
+
+//将标题居中，style 属性淘汰了旧的 "align" 属性。
+
+<html>
+
+<body bgcolor="pink">
+<h2>请看: 改变了颜色的背景。</h2>
+</body>
+
+</html>
+
+<html>
+<body style="background-color:pink">
+<h2 style="background-color:purple">This is a heading</h2>
+<p style="background-color:PowderBlue">This is a paragraph.</p>
+</body>
+</html>
+
+//改变背景颜色和改行底色
+
+<hr />
+
+//定义水平线
+
+<html>
+
+<body>
+
+<!--这是一段注释。注释不会在浏览器中显示。-->
+
+<p>这是一段普通的段落。</p>
+
+</body>
+</html>
+
+//添加注释
+
+当显示页面时，浏览器会移除源代码中多余的空格和空行。所有连续的空格或空行都会被算作一个空格。
+需要注意的是，HTML 代码中的所有连续的空行（换行）也被显示为一个空格。
+
+<html>
+<body style="background-color:PowderBlue;">
+
+<h1>Look! Styles and colors</h1>
+
+<p style="font-family:verdana;color:red">
+This text is in Verdana and red</p>
+
+<p style="font-family:times;color:green">
+This text is in Times and green</p>
+
+<p style="font-size:30px">This text is 30 pixels high</p>
+
+</body>
+</html>
+
+<html>
+<body>
+
+<h1><font face="verdana">A heading</font></h1>
+<p><font size="10" face="arial" color="red">A paragraph.</font></p>
+
+</body>
+</html>
+
+//改变字体和颜色，style淘汰了font旧方法
