@@ -1,0 +1,256 @@
+<html>
+
+<body>
+
+<b>This text is bold</b>
+
+<br />
+
+<strong>This text is strong</strong>
+
+<br />
+
+<big>This text is big</big>
+
+<br />
+
+<em>This text is emphasized</em>  //强调
+
+<br />
+
+<i>This text is italic</i>  //斜体
+
+<br />
+
+<small>This text is small</small>
+
+<br />
+
+This text contains
+<sub>subscript</sub>  //脚标下
+
+<br />
+
+This text contains
+<sup>superscript</sup>  //脚标上
+
+</body>
+</html>
+
+
+<html>
+
+<body>
+
+<pre>
+这是
+预格式文本。
+它保留了      空格
+和换行。
+</pre>
+
+<p>pre 标签很适合显示计算机代码：</p>
+
+<pre>
+for i = 1 to 10
+     print i
+next i
+</pre>
+
+</body>
+</html>
+
+
+<html>
+
+<body>
+
+<code>Computer code</code>
+<br />
+<kbd>Keyboard input</kbd>
+<br />
+<tt>Teletype text</tt>
+<br />
+<samp>Sample text</samp>
+<br />
+<var>Computer variable</var>
+<br />
+
+<p>
+<b>注释：</b>这些标签常用于显示计算机/编程代码。
+</p>
+
+</body>
+</html>
+
+
+<html>
+<body>
+
+<address> //编写地址
+Written by <a href="mailto:webmaster@example.com">Donald Duck</a>.<br>  //指向
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+</body>
+</html>
+
+
+<html>
+
+<body>
+
+<abbr title="etcetera">etc.</abbr>  //缩写
+<br />
+<acronym title="World Wide Web">WWW</acronym> //首字母缩写
+
+<p>在某些浏览器中，当您把鼠标移至缩略词语上时，title 可用于展示表达的完整版本。</p>
+
+<p>仅对于 IE 5 中的 acronym 元素有效。</p>
+
+<p>对于 Netscape 6.2 中的 abbr 和 acronym 元素都有效。</p>
+
+</body>
+</html>
+
+
+<html>
+
+<body>
+
+这是长的引用：
+<blockquote>
+这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。
+</blockquote> //常引用会换行后输出
+
+这是短的引用：
+<q>
+这是短的引用。
+</q>  //短引用不会换行，但是会给内容加上引号
+
+<p>
+使用 blockquote 元素的话，浏览器会插入换行和外边距，而 q 元素不会有任何特殊的呈现。
+</p>
+
+</body>
+</html>
+
+
+<html>
+<body>
+
+<p>The <dfn title="World Health Organization">WHO</dfn> was founded in 1948.</p>
+
+<p>对缩写进行标记能够为浏览器、翻译系统以及搜索引擎提供有用的信息。</p>
+
+</body>
+</html>
+
+
+<html>
+<body>
+
+<p>HTML cite 元素定义著作的标题。</p>
+<p>浏览器通常会以斜体显示 cite 元素。</p>
+
+<img src="img_the_scream.jpg" width="220" height="277" alt="The Scream">  
+<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+//alt 属性用来为图像定义一串预备的可替换的文本。替换文本属性的值是用户定义的。
+cite：引用
+</body>
+</html>
+
+
+<html>
+<body style="font-size:16px">
+
+<p>爱因斯坦的公式：</p>
+
+<p><var>E</var> = <var>m</var> <var>c</var><sup>2</sup></p> //HTML <var> 元素定义数学变量
+
+</body>
+</html>
+
+
+<html>
+
+<head>  //先定义文件的格式
+<style type="text/css">
+h1 {color: red}
+p {color: green}
+</style>
+</head>
+
+<body>  //在写入内容
+<h1>header 1</h1>
+<p>A paragraph.</p>
+</body>
+
+</html>
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />  //定义文本字体和大小
+<meta http-equiv="Content-Language" content="zh-cn" />    //定义语音
+</head>
+
+<body>
+
+<a href="/example/html/lastpage.html" style="text-decoration:none">
+这是一个链接！
+</a>
+
+</body>
+</html>
+
+
+<head>
+
+<style type="text/css">
+body {background-color: red}
+p {margin-left: 20px} //开头留多少位置
+</style>
+</head>
+
+
+<html>
+
+<body>
+
+<p><a href="/index.html">本文本</a> 是一个指向本网站中的一个页面的链接。</p>
+
+<p><a href="http://www.bing.com/">本文本</a> 是一个指向万维网上的页面的链接。</p>
+
+</body>
+</html>
+
+
+<html>
+
+<body>
+<p>
+您也可以使用图像来作链接：
+<a href="/example/html/lastpage.html">
+<img border="0" src="/i/eg_buttonnext.gif" /> //border为边界宽度
+</a>
+</p>
+
+</body>
+</html>
+
+
+<html>
+
+<body>
+
+<a href="http://www.w3school.com.cn/" target="_blank">Visit W3School!</a>
+
+<p>如果把链接的 target 属性设置为 "_blank"，该链接会在新窗口中打开。</p>
+
+</body>
+
+</html>
