@@ -1,0 +1,119 @@
+<html>
+
+<body>
+
+<p>每个表格由 table 标签开始。</p>
+<p>每个表格行由 tr 标签开始。</p>
+<p>每个表格数据由 td 标签开始。</p>
+
+<h4>一列：</h4>
+<table border="1">
+<tr>
+  <td>100</td>
+</tr>
+</table>
+
+<h4>一行三列：</h4>
+<table border="1">
+<tr>
+  <td>100</td>
+  <td>200</td>
+  <td>300</td>
+</tr>
+</table>
+
+<h4>两行三列：</h4>
+<table border="1">
+<tr>
+  <td>100</td>
+  <td>200</td>
+  <td>300</td>
+</tr>
+<tr>
+  <td>400</td>
+  <td>500</td>
+  <td>600</td>
+</tr>
+</table>
+
+<table	border="1">
+<tr>
+	<td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+</tr>
+<br/>
+<br/>
+<tr>
+	<td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+</tr>
+</table>
+
+
+</body>
+</html>
+每个表格由 table 标签开始。
+
+每个表格行由 tr 标签开始。
+
+每个表格数据由 td 标签开始。
+
+border调节边框粗细
+
+caption可以制作表格标题
+
+colspan="2"跨列/将一行分为两列
+rowspan="2"跨行/将一列分为两行 //放在表格<th><td>
+
+cellpadding="50" 单元格边距
+cellspacing="20" 单元格间距  //放在table中
+
+align="left"
+align="right"表格内同靠左/右
+
+
+<html>
+
+<body>
+
+<h4>一个无序列表：</h4>
+<ul>/<ol>
+  <li>咖啡</li> //<ul>  <li>可以制作嵌套列表
+  <li>茶</li>
+  <li>牛奶</li>
+</ul>/</ol> //ol中添加start="49"开始排序，若不添加数字默认从"1"开始
+
+</body>
+</html>
+
+
+<html>
+<head>
+<style>
+.cities { //先定义块的元素
+    background-color:pink;
+    color:white;
+    margin:30px;
+    padding:20px;
+}	
+</style>
+</head>
+
+<body>
+
+<div class="cities">//引用块
+<h2>London</h2>
+
+<p>London is the capital city of England. It is the most populous city in the United Kingdom,
+with a metropolitan area of over 13 million inhabitants.</p>
+
+<p>Standing on the River Thames, London has been a major settlement for two millennia, 
+its history going back to its founding by the Romans, who named it Londinium.</p>
+</div> 
+
+</body>
+</html>
